@@ -141,6 +141,8 @@ section{
 @media (min-width:1000px) and (max-width:1100px){
     body{
         font-size: 34px;
+        width: 100vw;
+        height: 100vh;
     }
     img{
         width: 370px;
@@ -453,9 +455,12 @@ section{
         font-size: 13px;
     }
     img{
-        width: 190px;
-        height: 190px;
+        width: 140px;
+        height: 140px;
         padding: 6px;
+        border:  2px solid black;
+        position: relative;
+        top: 20px;
     }
     #info{
         margin: 80px 400px 20px 70px;
@@ -513,7 +518,7 @@ section{
         bottom: 400px;
     }
 }
-@media (min-width:300px) and (max-width:400px){
+@media (min-width:350px) and (max-width:400px){
     body{
         font-size: 13px;
     }
@@ -523,22 +528,24 @@ section{
         padding: 5px;
         margin: 20px;
         position: relative;
-        top: 20px;
+        top: 25px;
+        left: 20px;
     }
     #info{
         margin: 90px 200px 90px 20px;
         /* border: 2px solid black; */
         position: relative;
         bottom: 50px;
-        left: 20px;
+        left: 15px;
     }
     .section{
         margin: 60px 0px;
         padding: 0%;
     }
     #sec2{
-        text-align: center;
-        padding: 30px 0px;
+        /* border: 2px solid black; */
+        /* text-align: center; */
+        padding: 40px 0px 0px 0px;
     }
     #circle{
         border: 1px solid white;
@@ -548,7 +555,7 @@ section{
         background-color: rgb(136, 136, 187);
         border-radius: 100%;
         position: relative;
-        left: 155px;
+        left: 220px;
         bottom: 200px;
     }
     #circle1{
@@ -559,7 +566,7 @@ section{
         background-color: rgb(136, 136, 187);
         border-radius: 100%;
         position: relative;
-        left: 240px;
+        left: 305px;
         bottom: 300px;   
     }
     #circle2{
@@ -570,7 +577,7 @@ section{
         background-color: rgb(136, 136, 187);
         border-radius: 100%;
         position: relative;
-        left: 145px;
+        left: 210px;
         bottom: 300px;
     }
     section{
@@ -588,3 +595,79 @@ section{
         font-size: 10px;
     }
 }
+@media (min-width:300px) and (max-width:350px){
+    body{
+        font-size: 13px;
+    }
+    img{
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        margin: 15px;
+        position: relative;
+        top: 25px;
+        left: 20px;
+    }
+    #info{
+        margin: 90px 200px 90px 20px;
+        /* border: 2px solid black; */
+        position: relative;
+        bottom: 50px;
+        left: 15px;
+    }
+    .section{
+        margin: 60px 0px;
+        padding: 0%;
+    }
+    #sec2{
+        padding: 40px 0px 0px 0px;
+    }
+    #circle{
+        border: 1px solid white;
+        width: 30px;
+        height: 30px;
+        padding: 40px;
+        background-color: rgb(136, 136, 187);
+        border-radius: 100%;
+        position: relative;
+        left: 190px;
+        bottom: 200px;
+    }
+    #circle1{
+        border: 1px solid white;
+        width: 10px;
+        height: 10px;
+        padding: 15px;
+        background-color: rgb(136, 136, 187);
+        border-radius: 100%;
+        position: relative;
+        left: 275px;
+        bottom: 300px;   
+    }
+    #circle2{
+        border: 1px solid white;
+        width: 10px;
+        height: 10px;
+        padding: 8px;
+        background-color: rgb(136, 136, 187);
+        border-radius: 100%;
+        position: relative;
+        left: 180px;
+        bottom: 300px;
+    }
+    section{
+        position: relative;
+        bottom: 410px;
+    }
+    #skilltitle,#edutitle,#achievetitle{
+        font-size: 10px;
+    }
+    #achievetitle{
+        margin: 0px 20px 0px 0px;
+        
+    }
+    #skillinfo,#eduinfo,#achieveinfo{
+        font-size: 10px;
+    }
+}
+
