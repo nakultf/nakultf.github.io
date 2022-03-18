@@ -26,11 +26,9 @@ body{
 }
 
 #info2 > img{
-    border-radius: 100%;
     width: 20vw;
     position: relative;
     height: 20vw;
-    background-color: black;
 }
 
 body{
