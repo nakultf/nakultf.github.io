@@ -5,24 +5,9 @@ body{
     font-size: 1.3rem;
 }
 .info{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    /* border: 2px dotted black; */
-}
-.info > #info1{
-    /* border: 2px dotted black; */
-    text-align: center;
-    padding-top: 5.5rem;
-    padding-bottom: 5.5rem;
-    
-}
-
-.info > #info2{
-    /* border: 2px dotted black; */
     display: flex;
-    justify-content: center;
-    align-items: center;
-
+    justify-content:center;
+    align-items:center;
 }
 
 #info2 > img{
